@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Link } from 'gatsby';
-import Container from './container';
-import { useStaticQuery, graphql } from 'gatsby';
+import React from "react";
+import styled from "styled-components";
+import { Link } from "gatsby";
+import Container from "./container";
+import { useStaticQuery, graphql } from "gatsby";
 
 const Header = () => {
   const { site } = useStaticQuery(
@@ -25,17 +25,17 @@ const Header = () => {
         </HeaderTitle>
 
         <HeaderNavList>
-          <HeaderNavListItem>
-            <Link to="/blog">Blog</Link>
-          </HeaderNavListItem>
-
-          <HeaderNavListItem>
-            <Link to="/about">About</Link>
-          </HeaderNavListItem>
-
-          <HeaderNavListItem>
-            <Link to="/contact">Contact</Link>
-          </HeaderNavListItem>
+          {/* <HeaderNavListItem> */}
+          {/*   <Link to="/blog">Blog</Link> */}
+          {/* </HeaderNavListItem> */}
+          {/*  */}
+          {/* <HeaderNavListItem> */}
+          {/*   <Link to="/about">About</Link> */}
+          {/* </HeaderNavListItem> */}
+          {/*  */}
+          {/* <HeaderNavListItem> */}
+          {/*   <Link to="/contact">Contact</Link> */}
+          {/* </HeaderNavListItem> */}
         </HeaderNavList>
       </HeaderWrapper>
     </StyledHeader>

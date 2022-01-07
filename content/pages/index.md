@@ -1,8 +1,6 @@
 ---
-template: 'index-template'
-title: 'Gatsby Starter Glass'
+template: "index-template"
+title: "Home"
 ---
 
-#Hello World
-
-A minimal & beautiful gatsby personal blog starter with nice glassmorphism UI.
+# Ginco Tech Blog

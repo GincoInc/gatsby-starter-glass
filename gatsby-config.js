@@ -1,29 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Glass`,
-    author: {
-      name: `Yinka Adedire`,
-      summary: `Self-taught front-end web dev. JAMStack.`,
-    },
+    title: `Ginco Tech Blog`,
     openGraphImage: `open-graph-image.png`,
-    description: `A minimal & beautiful gatsby personal blog starter with a nice glassmorphism UI.`,
-    siteUrl: `https://gatsbyglass.netlify.app`,
-    social: {
-      twitter: `yinkakun`,
-    },
+    description: `Ginco のエンジニアがブロックチェーンに関する知見を共有する技術ブログです。`,
+    siteUrl: `https://ginco-tech-blog.netlify.app`,
     socialLinks: [
       {
         name: "github",
         url: "https://github.com/GincoInc",
       },
-      // {
-      //   name: "twitter",
-      //   url: "https://twitter.com",
-      // },
-      // {
-      //   name: "instagram",
-      //   url: "https://instagram.com",
-      // },
     ],
   },
   plugins: [
